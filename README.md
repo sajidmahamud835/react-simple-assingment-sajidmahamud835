@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Find Perfect Web Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link: [https://the-superhero-direction-sajidmahamud835.netlify.app/](https://the-superhero-direction-sajidmahamud835.netlify.app/)
+
+# How This Works?
+
+* You will see a list of top rated web developers. (We call them seller.)
+* You can see their info and salary.
+* Select sellers according to your budget.
 
 ## Available Scripts
 

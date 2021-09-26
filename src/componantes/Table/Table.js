@@ -15,15 +15,6 @@ const Table = (props) => {
                 </thead>
                 <tbody>
                     {
-                        /* <tr>
-                            <td>Mark</td>
-                        </tr>
-                        <tr>
-                            <td>Jacob</td>
-                        </tr>
-                        <tr>
-                            <td>@twitter</td>
-                        </tr> */
                         selections.map(selection =>
                             <tr>
                                 <td>{selection}</td>
