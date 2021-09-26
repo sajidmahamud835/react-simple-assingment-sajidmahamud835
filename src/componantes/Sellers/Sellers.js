@@ -7,6 +7,9 @@ const Sellers = () => {
 
     //function
     const handelSelection = (seller, salary) => {
+        if (selected.includes(seller)) {
+            return
+        }
         const newSelection = [...selected, seller];
         setSelected(newSelection);
         setCosts(costs + salary);
