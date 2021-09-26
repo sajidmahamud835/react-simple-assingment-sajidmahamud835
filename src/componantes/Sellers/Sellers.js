@@ -4,8 +4,17 @@ import Table from '../Table/Table';
 import './Sellers.css';
 
 const Sellers = () => {
+
+    //function
+    const handelSelection = (seller, salary) => {
+        const newSelection = [...selected, seller];
+        setSelected(newSelection);
+        setCosts(costs + salary);
+    }
     //use state
     const [sellers, setSellers] = useState([]);
+    const [selected, setSelected] = useState([]);
+    const [costs, setCosts] = useState(0);
     //use effect
     useEffect(() =>
         fetch('./fakedata.json')
@@ -20,13 +29,14 @@ const Sellers = () => {
                         sellers.map(seller => <Seller
                             key={seller.key}
                             seller={seller}
+                            handelSelection={handelSelection}
                         ></Seller>
                         )
                     }
                 </div>
             </section>
             <section className="col-3 mt-5">
-                <Table></Table>
+                <Table selections={selected} costs={costs}></Table>
             </section>
         </div>
     );

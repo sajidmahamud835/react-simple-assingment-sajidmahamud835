@@ -1,7 +1,7 @@
 [
     {
         "key": "61507fb5395b3305e730808c",
-        "balance": "$3619",
+        "salary": 3619,
         "picture": "https://cdn.shopify.com/s/files/1/0045/5104/9304/t/27/assets/AC_ECOM_SITE_2020_REFRESH_1_INDEX_M2_THUMBS-V2-1.jpg?v=8913815134086573859",
         "age": 32,
         "name": "Grimes Lindsey",
@@ -13,7 +13,7 @@
     },
     {
         "key": "61507fb50e6f306268962690",
-        "balance": "$1141",
+        "salary": 1141,
         "picture": "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?size=626&ext=jpg",
         "age": 40,
         "name": "Juliet Ruiz",
@@ -25,7 +25,7 @@
     },
     {
         "key": "61507fb511e2be326af0c393",
-        "balance": "$3650",
+        "salary": 3650,
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQpI83cg_kTOioXP4OmNsm-DRNuofptV4zR6TnNCUacvPoTvJK71ITGiMKqgN5qtI2di4&usqp=CAU",
         "age": 24,
         "name": "Carter Gamble",
@@ -37,7 +37,7 @@
     },
     {
         "key": "61507fb5d989ec7f972b2aca",
-        "balance": "$3196",
+        "salary": 3196,
         "picture": "https://image.shutterstock.com/mosaic_250/2936380/613759379/stock-photo-happy-cheerful-young-woman-wearing-her-red-hair-in-bun-rejoicing-at-positive-news-or-birthday-gift-613759379.jpg",
         "age": 24,
         "name": "Maritza Hale",
@@ -49,7 +49,7 @@
     },
     {
         "key": "61507fb5e9ca21f9eae6ec27",
-        "balance": "$1014",
+        "salary": 1014,
         "picture": "https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-isolated-gray-background-joyful-cheerful-men-crossed-hands-studio-shot-172868988.jpg",
         "age": 30,
         "name": "Puckett Washington",
@@ -61,7 +61,7 @@
     },
     {
         "key": "61507fb59b6ff81efb51175d",
-        "balance": "$3533",
+        "salary": 3533,
         "picture": "https://cdn2.momjunction.com/wp-content/uploads/2015/03/Messy-top-bun.jpg",
         "age": 21,
         "name": "Cara Flowers",
@@ -73,7 +73,7 @@
     },
     {
         "key": "61507fb54061273ef370d2bb",
-        "balance": "$3897",
+        "salary": 3897,
         "picture": "https://deathofhemingway.com/wp-content/uploads/2020/12/istockphoto-1045886560-612x612-1.jpg",
         "age": 22,
         "name": "Reid Pratt",
