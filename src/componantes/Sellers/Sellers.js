@@ -25,23 +25,25 @@ const Sellers = () => {
             .then(data => setSellers(data))
         , []);
     return (
-        <div className="row">
-            <section className="col-9 mt-5">
-                <div className="row g-5">
-                    {
-                        sellers.map(seller => <Seller
-                            key={seller.key}
-                            seller={seller}
-                            handelSelection={handelSelection}
-                        ></Seller>
-                        )
-                    }
-                </div>
-            </section>
-            <section className="col-3 mt-5">
-                <Table selections={selected} costs={costs}></Table>
-            </section>
-        </div>
+        <main className="container">
+            <div className="row">
+                <section className="col-9 mt-5">
+                    <div className="row g-5">
+                        {
+                            sellers.map(seller => <Seller
+                                key={seller.key}
+                                seller={seller}
+                                handelSelection={handelSelection}
+                            ></Seller>
+                            )
+                        }
+                    </div>
+                </section>
+                <section className="col-3 mt-5">
+                    <Table selections={selected} costs={costs}></Table>
+                </section>
+            </div>
+        </main>
     );
 };
 
